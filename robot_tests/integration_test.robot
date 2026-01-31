@@ -6,4 +6,4 @@ Library    ../libraries/pytest_runner.py
 Run PyTest From Robot
     ${status}=    Run Pytest    pytest_tests
     Should Be True     ${status}
-    Should Be True     ${status}
+
